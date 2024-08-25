@@ -22,10 +22,10 @@ export const Header = memo((props: HeaderProps) => {
 			<div className={classes.innerWrapper}>
 				<Logo />
 				<div className={classes.buttonsWrapper}>
-					<Link aria-label='scroll users block' {...scrollOptions} to={ScrollNames.USERS_BLOCK}>
+					<Link aria-label='scroll users block' {...scrollOptions} to={ScrollNames.USERS_BLOCK} href={ScrollNames.USERS_BLOCK}>
 						<Button>Users</Button>
 					</Link>
-					<Link aria-label='scroll to form block' {...scrollOptions} to={ScrollNames.SIGN_UP}>
+					<Link aria-label='scroll to form block' {...scrollOptions} to={ScrollNames.SIGN_UP} href={ScrollNames.SIGN_UP}>
 						<Button>Sign up</Button>
 					</Link>
 				</div>
