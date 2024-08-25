@@ -28,6 +28,7 @@ export const UserCard = memo((props: UserCardProps) => {
 			<div className={classes.photoWrapper}>
 				{photo
 					? <img
+						loading='lazy'
 						src={photo}
 						alt='user photo'
 						className={classes.photo}

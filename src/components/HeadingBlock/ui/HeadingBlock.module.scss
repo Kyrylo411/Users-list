@@ -4,7 +4,10 @@
 }
 
 .background {
-	background-image: url('../../../shared/assets/images/Rectangle\ 29.webp');
+	background-image: image-set(
+		url('../../../shared/assets/images/backgroundImage.webp') type('image/webp'),
+		url('../../../shared/assets/images/backgroundImage.jpg') type('image/jpg')
+	);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
