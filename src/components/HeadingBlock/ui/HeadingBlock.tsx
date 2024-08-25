@@ -21,7 +21,6 @@ export const HeadingBlock = memo(() => {
 				<Link aria-label='scroll to form block' {...scrollOptions} href={ScrollNames.SIGN_UP}>
 					<Button>Sign up</Button>
 				</Link>
-
 			</div>
 		</div>
 	)
