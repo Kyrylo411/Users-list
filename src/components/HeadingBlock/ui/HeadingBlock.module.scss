@@ -1,0 +1,35 @@
+.headingBlock {
+	width: 100%;
+	max-width: 1170px;
+}
+
+.background {
+	background-image: url('../../../shared/assets/images/Rectangle\ 29.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 650px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 16px 71px;
+
+	@media (max-width:768px) {
+		min-height: 500px;
+	}
+}
+
+.title, .text {
+	text-align: center;
+	color:#fff;
+	max-width: 380px;
+	font-weight: 400;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 26px;
+	margin: 21px 0 32px 0;
+}

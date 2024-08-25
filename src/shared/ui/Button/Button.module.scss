@@ -1,0 +1,20 @@
+.btn {
+	width: fit-content;
+	border: none;
+	border-radius: 80px;
+	height: 34px;
+	padding: 4px 19px;
+	background: #F4E041;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover:not(.disabled) {
+		opacity: 0.8;
+	}
+
+	&.disabled{
+		background: #B4B4B4;
+		color:#fff;
+		cursor: auto;
+	}
+}
