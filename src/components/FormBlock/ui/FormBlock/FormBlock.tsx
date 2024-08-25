@@ -4,7 +4,7 @@ import { Title, TitleVariant } from '../../../../shared/ui/Title/Title'
 import { Position } from '../../types'
 import { Form } from '../Form/Form'
 import classes from './FormBlock.module.scss'
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ScrollNames } from '../../../../shared/const/scrollNames'
 
 interface FormBlockProps {
@@ -35,7 +35,7 @@ export const FormBlock = (props: FormBlockProps) => {
 
 	return (
 		<div className={classes.formBlock}>
-			<Element name={ScrollNames.SIGN_UP} id={ScrollNames.SIGN_UP} />
+			<Element name={ScrollNames.SIGN_UP} id={ScrollNames.SIGN_UP_ID} />
 			<Title
 				variant={TitleVariant.H2}
 			>

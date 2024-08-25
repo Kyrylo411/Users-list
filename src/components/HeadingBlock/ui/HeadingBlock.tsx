@@ -18,7 +18,7 @@ export const HeadingBlock = memo(() => {
 			<div className={classes.background}>
 				<Title variant={TitleVariant.H1} className={classes.title}>Test assignment for front-end developer</Title>
 				<p className={classes.text}>What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with a vast understanding of User design thinking as they'll be building web interfaces with accessibility in mind. They should also be excited to learn, as the world of Front-End Development keeps evolving.</p>
-				<Link  {...scrollOptions}>
+				<Link aria-label='scroll to form block' {...scrollOptions}>
 					<Button>Sign up</Button>
 				</Link>
 

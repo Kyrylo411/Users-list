@@ -62,7 +62,7 @@ export const UsersBlock = ({ isNewUserAdded, setIsNewUserAdded }: Props) => {
 
 	return (
 		<div className={classes.usersBlock}>
-			<Element id={ScrollNames.USERS_BLOCK} name={ScrollNames.USERS_BLOCK} />
+			<Element id={ScrollNames.USERS_BLOCK_ID} name={ScrollNames.USERS_BLOCK} />
 			<Title variant={TitleVariant.H2}>Working with GET request</Title>
 			{isLoading
 				? <Loader />
